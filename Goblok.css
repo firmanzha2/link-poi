@@ -1,0 +1,337 @@
+
+
+@media screen and (max-width: 600px) {
+  .linesrc {
+    clear: both;
+    border-top: 1px solid grey;
+    margin: 0 10px;
+  }
+
+ 
+  .topnav {
+    background-color: #232b34;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav li.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .topnav.responsive li a {
+    width: 100%;
+  }
+
+  .topnav.responsive li:nth-child(1) {
+    overflow: auto;
+  }
+
+  .topnav.responsive li:nth-child(odd) {
+    float: left;
+    width: 50%;
+  }
+
+  .topnav.responsive li:nth-child(even) {
+    float: right;
+    width: 50%;
+  }
+}
+
+
+
+.main-col {
+  float: left;
+  width: 77%;
+}
+
+.contlatest {
+  width: 77%;
+  margin: 30px auto;
+}
+
+.sidebar {
+  float: left;
+  width: 23%;
+  padding-left: 20px;
+}
+
+.card {
+  padding: 5px;
+  background-color: white;
+  color: #f2f2f2;
+  margin-top: 20px;
+  border:2px solid skyblue;
+}
+
+.row,
+.rowform {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto; 
+}
+
+.row {
+  min-height: 90vh;
+}
+
+.row:after,
+.rowform:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-body {
+  margin-top: 25px;
+  border-top: 3px solid #1e90ff;
+  font-size: 10pt;
+  padding: 10px;
+  color: #808080;
+}
+
+.footer-body a {
+  color: blue;
+}
+
+.footer {
+  padding: 20px 10px 50px 10px;
+  font-size: 9pt;
+}
+
+.hidden {
+  display: none;
+}
+
+.footer a,
+.txtwb {
+  color: #f2f2f2;
+}
+
+.post-body {
+  padding: 10px;
+}
+
+
+.btn-submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 5px;
+  width: 100%;
+}
+
+btn-submit:hover {
+  background-color: #45a049;
+}
+
+.container {
+  margin: 25px 0;
+}
+
+.form-group {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.col-form {
+  width: 100%;
+  margin-top: 0;
+}
+
+
+@media screen and (max-width: 800px) {
+  #detectmob {
+    display: none;
+  }
+
+
+
+.panel-body {
+  background-color: #232b34;
+  color: #f2f2f2;
+  padding: 1px 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.box-center {
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 auto;
+  float: none;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  margin: 10px;
+  font-size: 20px;
+  max-width: 250px;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+.comment-box {
+  margin: 10px;
+}
+
+p.success {
+  color: green;
+}
+
+.clear {
+  clear: both;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a,
+.pagination span {
+  color: #f2f2f2;
+  float: left;
+  padding: 6px 12px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination .bg-gdark {
+  background-color: #f2f2f2;
+  color: #232b34;
+}
+
+.pagination span.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+ol.breadcrumb {
+  padding: 8px 14px;
+  list-style: none;
+  background-color: #232b34;
+  color: #7d7d7d;
+}
+
+ol.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+}
+
+ol.breadcrumb li+li:before {
+  padding: 3px;
+  color: #fff;
+  content: "\203A";
+}
+
+ol.breadcrumb li.last a {
+  color: #7d7d7d;
+}
+
+ol.breadcrumb li a {
+  color: #b8b8b8;
+  text-decoration: none;
+}
+
+ol.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.shadow:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tableInfo {
+  color: #f2f2f2 !important;
+  background-color: #232b34;
+  margin: 10px auto;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.panel-heading {
+  color: white;
+  padding: auto 5px;
+  background-color: #55778c;
+}
+
+.bg-dblue {
+  background-color: #d9edf6;border:0px solid mediumslateblue;position: center;}
+
+}
+
+/* Call Disqus On Click Event by IGNIEL.COM and https://kodebloggerku.blogspot.com */
+button#show-comments {
+       background-color: dodgerblue;
+       color: white;
+       font: normal 500 18px Georgia,sans-serif;
+       line-height: 0;
+       text-align: center;
+       width: 100%;
+       border-width: 0%;
+       border: 0px;
+       padding: 20px 10px;
+       cursor: pointer;
+       transition: all .5s ease;
+       border-radius: 3px
+}
+button#show-comments:hover {
+       background: #1d2129 /* Perubahan warna tombol ketika disorot */
+}
