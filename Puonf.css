@@ -1,0 +1,34 @@
+.card {
+  padding: 5px;
+  background-color: white;
+  color: #f2f2f2;
+  margin-top: 20px;
+  border:2px solid skyblue;
+}
+.comment-box {
+  margin: 10px;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+                 .bg-dblue {
+  background-color: #d9edf6;border:0px solid mediumslateblue;position: center;}
+/* Call Disqus On Click Event by IGNIEL.COM and https://kodebloggerku.blogspot.com */
+button#show-comments {
+       background-color: dodgerblue;
+       color: white;
+       font: normal 500 18px Georgia,sans-serif;
+       line-height: 0;
+       text-align: center;
+       width: 100%;
+       border-width: 0%;
+       border: 0px;
+       padding: 20px 10px;
+       cursor: pointer;
+       transition: all .5s ease;
+       border-radius: 3px
+}
+button#show-comments:hover {
+       background: #1d2129 /* Perubahan warna tombol ketika disorot */
+}
